@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio pessoal e currículo online.">
+  <title>Luke Daitx de Oliveira | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir ao início">LD<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre mim</a><a href="#formacao">Formação</a><a href="#portfolio">Portfólio</a><a href="#contato">Contato</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Alternar tema">◐</button>
+  </header>
+  <main id="inicio">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFÓLIO PESSOAL · 2026</p>
+        <h1 id="hero-title">Olá, eu sou<br><span>Luke Daitx de Oliveira.</span></h1>
+        <p class="intro">Estudante de Tecnologia em Jogos Digitais na Univirtus, em Florianópolis (SC), com interesse em jogos e edição. Este é meu espaço para compartilhar minha trajetória e meus projetos.</p>
+        <a class="button" href="#sobre">Conheça minha trajetória <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="monogram">LD</div><span class="spark spark-a">✳</span><span class="spark spark-b">✳</span><span class="art-caption">CRIANDO • APRENDENDO • EVOLUINDO</span></div>
+      <div class="hero-foot"><span>01 / 04</span><span>Role para explorar <b>↓</b></span><span>FLORIANÓPOLIS, SC</span></div>
+    </section>
+    <section id="sobre" class="section about">
+      <div class="section-label"><span>01</span><span>QUEM SOU</span></div>
+      <div class="section-content"><p class="eyebrow">SOBRE MIM</p><h2>Curiosidade que<br><em>vira caminho.</em></h2><div class="about-grid"><p>Meu nome é Luke Daitx de Oliveira, sou de Florianópolis (SC) e estudo Tecnologia em Jogos Digitais na Univirtus. Tenho interesse em jogos e edição.</p><div class="fact-card"><span class="fact-icon">✳</span><h3>Fora dos estudos</h3><p>Gosto de jogos e edição.</p></div></div></div>
+    </section>
+    <section id="formacao" class="section education">
+      <div class="section-label"><span>02</span><span>APRENDIZADO</span></div>
+      <div class="section-content"><p class="eyebrow">FORMAÇÃO</p><h2>Uma base para<br><em>ir mais longe.</em></h2>
+        <div class="timeline"><article><span class="time">FORMAÇÃO</span><div><h3>Tecnologia em Jogos Digitais</h3><p>Univirtus · Florianópolis, SC</p><p class="detail">Curso de Tecnologia em Jogos Digitais na Univirtus.</p></div></article><article><span class="time">IDIOMAS</span><div><h3>Inglês <small>— nível não informado</small></h3></div></article></div>
+      </div>
+    </section>
+    <section id="portfolio" class="section projects">
+      <div class="section-label"><span>03</span><span>O QUE FAÇO</span></div>
+      <div class="section-content"><p class="eyebrow">PORTFÓLIO</p><h2>Pequenos passos,<br><em>ideias em prática.</em></h2><p class="section-lead">Alguns trabalhos que representam o que venho aprendendo.</p>
+        <div class="project-grid"><article class="project-card"><div class="project-top"><span>01</span><span>JOGO DIGITAL</span></div><div class="project-mark mark-one">✳</div><h3>Block Breaker</h3><p>Jogo criado por mim e publicado na itch.io.</p><a href="https://gameboyjedi2001.itch.io/block-breaker" target="_blank" rel="noopener noreferrer">Jogar Block Breaker ↗</a></article><article class="project-card"><div class="project-top"><span>02</span><span>HTML · CSS · JS</span></div><div class="project-mark mark-two">↗</div><h3>Portfólio pessoal</h3><p>Site desenvolvido para a atividade de Fundamentos da Programação Web, reunindo informações sobre minha trajetória e meus interesses.</p></article></div>
+        <p class="hint">Projeto desenvolvido nesta atividade. Outros trabalhos podem ser adicionados quando estiverem disponíveis.</p>
+      </div>
+    </section>
+    <section id="contato" class="section contact">
+      <div class="section-label"><span>04</span><span>VAMOS CONVERSAR</span></div>
+      <div class="section-content contact-layout"><div><p class="eyebrow">CONTATO</p><h2>Uma boa conversa<br>começa com um <em>olá.</em></h2><p class="section-lead">Quer trocar uma ideia ou conhecer melhor meu trabalho? Envie uma mensagem.</p><p class="contact-note">Florianópolis, Santa Catarina</p></div>
+        <form id="contact-form" novalidate><label for="name">Seu nome</label><input id="name" name="name" autocomplete="name" placeholder="Como você se chama?" required><label for="email">Seu e-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required><label for="message">Mensagem</label><textarea id="message" name="message" rows="4" placeholder="Escreva sua mensagem..." required></textarea><button class="button" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button><p id="form-feedback" class="feedback" role="status" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#inicio">LD<span>.</span></a><p>Feito com intenção e curiosidade.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+</body>
+</html>
+
+
+
+
+
