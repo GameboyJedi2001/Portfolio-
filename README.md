@@ -1,17 +1,16 @@
-# Portfólio pessoal
+# Luke Daitx de Oliveira — Portfólio
 
-Site de página única para a atividade de Fundamentos da Programação Web. Feito com HTML5, CSS3 e JavaScript puro.
+Portfólio pessoal criado para a atividade de Fundamentos da Programação Web.
 
-## Personalização obrigatória antes da entrega
-Substitua todos os trechos entre colchetes pelos seus dados reais. Atualize o título, rodapé e monograma (LD) com seus dados finais. O projeto Block Breaker já está listado com o link fornecido. O nível de inglês não foi informado, então complete essa informação se desejar. Não entregue os campos de exemplo.
+## Conteúdo
+- Sobre mim, formação, portfólio e contato em uma única página.
+- Layout adaptável para celular, tablet e computador.
+- Alternância entre tema claro e escuro.
+- Validação de formulário com simulação de envio no navegador.
+- Projeto Block Breaker, publicado na [itch.io](https://gameboyjedi2001.itch.io/block-breaker).
 
-## Publicar no GitHub Pages
-1. Crie um repositório público no GitHub com um nome que inclua seu nome de aluno/usuário, conforme as instruções da atividade.
-2. Envie os arquivos `index.html`, `style.css` e `script.js` para a raiz do repositório.
-3. Em **Settings → Pages**, escolha publicar a partir da branch principal e da pasta raiz.
-4. Aguarde o GitHub informar o endereço publicado e abra-o para confirmar.
-5. Faça capturas das quatro seções com o endereço publicado visível e monte o PDF de entrega com os links e capturas.
+## Tecnologias
+HTML5, CSS3 e JavaScript puro, sem frameworks.
 
-O formulário demonstra validação e simulação local; ele não envia e-mail nem armazena mensagens.
-
-
+## GitHub Pages
+O site pode ser publicado em **Settings → Pages**, selecionando a branch `main` e a pasta `/ (root)`. O formulário apenas simula o envio e não transmite nem armazena mensagens.
